@@ -25,7 +25,8 @@ def convert():
         
         feet = inches // 12
         rem_inches = inches % 12
-        print(f'\n{inches} inches is {feet} feet, and {rem_inches} inches\n')
+        print("")
+        print(f'{inches} inches is {feet} feet, and {rem_inches} inches\n')
     
 convert()
     

@@ -24,6 +24,7 @@ jobs:
         expected-output: 'Enter the number of inches: 14 inches is 1 feet, and 2 inches'
         comparison-method: exact
         timeout: 10
+        max-score: 10
     - name: Test Case 2 [100]
       id: test-case-2-100
       uses: classroom-resources/autograding-io-grader@v1
@@ -36,6 +37,7 @@ jobs:
           inches'
         comparison-method: contains
         timeout: 10
+        max-score: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
